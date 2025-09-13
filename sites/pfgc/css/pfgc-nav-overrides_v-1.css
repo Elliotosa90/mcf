@@ -1,0 +1,37 @@
+/*
+ * CSS overrides required to support the addition of the
+ * "Corporate Responsibility" top level nav item.
+ */
+@media screen and (min-width: 993px),
+@media screen and (min-width: 1057px) {
+  .nav ul li+li {
+      padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 881px) {
+  .nav .logo a {
+    width: 182px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .nav .logo a {
+    width: 242px;
+    height: 42.5px;
+  }
+}
+
+@media screen and (min-width: 1104px) {
+  .nav .logo a {
+    width: 272px;
+    height: 48px;
+  }
+}
+@media screen and (min-width: 1130px) {
+  .nav .logo a {
+    width: 353px;
+    height: 55px;
+  }
+}

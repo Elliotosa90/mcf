@@ -1,0 +1,417 @@
+/*
+  We do not have access to PFGC's code base so I'm leveraging the Microsites to create
+  a build file for that website.
+*/
+a:focus,
+button:focus,
+input:focus,
+input[type="submit"]:focus,
+.desktopNav nav ul li a:focus,
+.swiper-button-prev:focus,
+.swiper-button-next:focus,
+select:focus {
+  outline: 3px solid #ffa500; }
+
+.skip-to-main-content {
+  position: absolute;
+  left: -9999px;
+  z-index: 9999;
+  padding: 1em;
+  background-color: #ea1b25;
+  color: #FFFFFF;
+  opacity: 0; }
+
+.skip-to-main-content:focus {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 1;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  outline-offset: -3px; }
+
+@media screen and (min-width: 1025px) {
+  #hq .title-text h1,
+  #hq .title-text h3,
+  #corporate-responsibility-section .title-text h1,
+  #corporate-responsibility-section .title-text h3,
+  #performance .title-text h1,
+  #performance .title-text h3,
+  #vistar .title-text h1,
+  #vistar .title-text h3,
+  #customized .title-text h1,
+  #customized .title-text h3,
+  #about-section .title-text h1,
+  #about-section .title-text h3,
+  #search .title-text h1,
+  #search .title-text h3,
+  #Leadership .title-text h1,
+  #Leadership .title-text h3,
+  #our-segments-section .title-text h1,
+  #our-segments-section .title-text h3,
+  .hero.hero-header .title-text h1,
+  .hero.hero-header .title-text h3 {
+    font-size: 36px; } }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  #hq .title-text h1,
+  #hq .title-text h3,
+  #corporate-responsibility-section .title-text h1,
+  #corporate-responsibility-section .title-text h3,
+  #performance .title-text h1,
+  #performance .title-text h3,
+  #vistar .title-text h1,
+  #vistar .title-text h3,
+  #customized .title-text h1,
+  #customized .title-text h3,
+  #about-section .title-text h1,
+  #about-section .title-text h3,
+  #search .title-text h1,
+  #search .title-text h3,
+  #Leadership .title-text h1,
+  #Leadership .title-text h3,
+  #our-segments-section .title-text h1,
+  #our-segments-section .title-text h3,
+  .hero.hero-header .title-text h1,
+  .hero.hero-header .title-text h3 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 480px) {
+  #hq .title-text h1,
+  #hq .title-text h3,
+  #corporate-responsibility-section .title-text h1,
+  #corporate-responsibility-section .title-text h3,
+  #performance .title-text h1,
+  #performance .title-text h3,
+  #vistar .title-text h1,
+  #vistar .title-text h3,
+  #customized .title-text h1,
+  #customized .title-text h3,
+  #about-section .title-text h1,
+  #about-section .title-text h3,
+  #search .title-text h1,
+  #search .title-text h3,
+  #Leadership .title-text h1,
+  #Leadership .title-text h3,
+  #our-segments-section .title-text h1,
+  #our-segments-section .title-text h3,
+  .hero.hero-header .title-text h1,
+  .hero.hero-header .title-text h3 {
+    font-size: 18px; } }
+
+a {
+  color: #D11A23; }
+
+.btn-solid {
+  background: #DE1923; }
+
+.image-text--heading > a,
+.image-title-text .logo-box > a,
+.image-text > a {
+  display: block;
+  height: 100%; }
+  .image-text--heading > a:focus,
+  .image-title-text .logo-box > a:focus,
+  .image-text > a:focus {
+    outline-offset: -3px; }
+
+.tab-item:focus {
+  border: 3px solid #ffa500;
+  outline: none; }
+
+@media screen and (min-width: 881px) {
+  .nav ul li .nav-link-expand-option {
+    position: absolute;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: none;
+    opacity: 0; }
+    .nav ul li .nav-link-expand-option:focus {
+      opacity: 1; }
+  .nav ul li .nav-sub {
+    bottom: initial;
+    padding-top: 56px; }
+    .nav ul li .nav-sub.expand {
+      display: block; } }
+
+#hq .title-text h1,
+#hq .title-text h3,
+#corporate-responsibility-section .title-text h1,
+#corporate-responsibility-section .title-text h3,
+#performance .title-text h1,
+#performance .title-text h3,
+#vistar .title-text h1,
+#vistar .title-text h3,
+#customized .title-text h1,
+#customized .title-text h3,
+#about-section .title-text h1,
+#about-section .title-text h3,
+#search .title-text h1,
+#search .title-text h3,
+#Leadership .title-text h1,
+#Leadership .title-text h3,
+#our-segments-section .title-text h1,
+#our-segments-section .title-text h3,
+.hero.hero-header .title-text h1,
+.hero.hero-header .title-text h3 {
+  margin: 0 0 13px;
+  line-height: 1;
+  text-transform: uppercase; }
+  #hq .title-text h1 span,
+  #hq .title-text h3 span,
+  #corporate-responsibility-section .title-text h1 span,
+  #corporate-responsibility-section .title-text h3 span,
+  #performance .title-text h1 span,
+  #performance .title-text h3 span,
+  #vistar .title-text h1 span,
+  #vistar .title-text h3 span,
+  #customized .title-text h1 span,
+  #customized .title-text h3 span,
+  #about-section .title-text h1 span,
+  #about-section .title-text h3 span,
+  #search .title-text h1 span,
+  #search .title-text h3 span,
+  #Leadership .title-text h1 span,
+  #Leadership .title-text h3 span,
+  #our-segments-section .title-text h1 span,
+  #our-segments-section .title-text h3 span,
+  .hero.hero-header .title-text h1 span,
+  .hero.hero-header .title-text h3 span {
+    background-color: #de1b24;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: inherit;
+    padding: 0 10px; }
+
+#corporate-responsibility-section .image-text--heading h3 {
+  height: 72px; }
+  @media screen and (max-width: 990px) {
+    #corporate-responsibility-section .image-text--heading h3 {
+      height: 30px;
+      font-size: 18px; } }
+
+#our-segments-section .title-text {
+  bottom: unset;
+  top: 20px; }
+  #our-segments-section .title-text h3 {
+    height: 72px; }
+    @media screen and (max-width: 990px) {
+      #our-segments-section .title-text h3 {
+        height: 30px;
+        font-size: 18px; } }
+
+#our-segments-section .title-text-logo {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 80px);
+  max-width: 50%;
+  left: 40px;
+  height: auto;
+  background-color: transparent; }
+  @media screen and (max-width: 990px) {
+    #our-segments-section .title-text-logo {
+      width: calc(100% - 40px);
+      left: 20px; } }
+
+#Leadership .image-text .title-text h3 {
+  margin-bottom: 10px;
+  font-size: 18px; }
+
+#explore-pfg-section .content-matrix-grid-text h3 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 17px;
+  padding: 0 40px;
+  position: absolute;
+  top: 40px;
+  margin: 0; }
+  @media screen and (max-width: 880px) {
+    #explore-pfg-section .content-matrix-grid-text h3 {
+      font-size: 13px; } }
+  @media screen and (max-width: 481px) {
+    #explore-pfg-section .content-matrix-grid-text h3 {
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      -webkit-transform: none;
+      transform: none;
+      padding: 0; } }
+
+.responsability-blurb .title-text-small {
+  float: initial;
+  margin-left: auto; }
+
+.content-matrix-social h3 {
+  font-size: 12px;
+  margin-top: 0;
+  -webkit-margin-after: 2.33em;
+          margin-block-end: 2.33em; }
+
+.hero.hero-header {
+  height: 43vw; }
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    .hero.hero-header {
+      height: 768px; } }
+  @media screen and (max-width: 480px) {
+    .hero.hero-header {
+      height: 400px; } }
+  .hero.hero-header .responsive-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; }
+    @media screen and (max-width: 1024px) {
+      .hero.hero-header .responsive-image {
+        -webkit-transform: initial;
+                transform: initial; } }
+  .hero.hero-header .hero-content {
+    z-index: 10;
+    position: relative;
+    top: calc(50% + 50px);
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    margin-top: 0; }
+    @media screen and (max-width: 480px) {
+      .hero.hero-header .hero-content {
+        top: calc(50% + 16px); } }
+
+#home-cta .hero,
+#sustainable-section .hero,
+#why-pfg .hero {
+  height: 500px;
+  overflow: hidden; }
+  #home-cta .hero > img,
+  #sustainable-section .hero > img,
+  #why-pfg .hero > img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute; }
+  #home-cta .hero .responsive-image,
+  #sustainable-section .hero .responsive-image,
+  #why-pfg .hero .responsive-image {
+    height: 100%;
+    position: absolute; }
+  #home-cta .hero .cta-image,
+  #sustainable-section .hero .cta-image,
+  #why-pfg .hero .cta-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover; }
+  #home-cta .hero .hero-content,
+  #sustainable-section .hero .hero-content,
+  #why-pfg .hero .hero-content {
+    position: relative; }
+
+.hamburger-icon {
+  border: 0;
+  background: transparent; }
+
+footer .footer-links-item .accordion-title {
+  text-transform: uppercase;
+  -webkit-margin-after: 1.67em;
+          margin-block-end: 1.67em;
+  -webkit-margin-before: 1.67em;
+          margin-block-start: 1.67em;
+  font-size: 0.83em; }
+  @media screen and (min-width: 768px) {
+    footer .footer-links-item .accordion-title {
+      margin-top: 0; } }
+  @media screen and (min-width: 1025px) {
+    footer .footer-links-item .accordion-title {
+      font-size: 16px; } }
+
+.logo a img {
+  opacity: 0; }
+
+.carousel {
+  margin-bottom: 40px; }
+  @media screen and (max-width: 1056px) {
+    .carousel {
+      margin-bottom: 0; } }
+
+.pfgc-careers-cta {
+  background-color: #ea1b25;
+  color: #FFF;
+  padding: 24px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'futura-pt', sans-serif;
+  font-size: 13.55px;
+  font-weight: 400;
+  line-height: 18.76px;
+  text-align: center; }
+
+.pfgc-careers-cta .pfgc-careers-cta__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px; }
+
+.pfgc-careers-cta .pfgc-careers-cta__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+  gap: 12px; }
+
+.pfgc-careers-cta .pfgc-careers-cta__social img {
+  width: 25.5px; }
+
+.pfgc-careers-cta .pfgc-careers-cta__img {
+  width: 122.5px; }
+
+@media screen and (min-width: 769px) {
+  .pfgc-careers-cta {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 26px;
+    line-height: 36px;
+    gap: 50px;
+    min-height: 256px; }
+  .pfgc-careers-cta .pfgc-careers-cta__left {
+    max-width: 518px; }
+  .pfgc-careers-cta .pfgc-careers-cta__social {
+    gap: 20px; }
+  .pfgc-careers-cta .pfgc-careers-cta__social img {
+    width: 49px; }
+  .pfgc-careers-cta .pfgc-careers-cta__img {
+    width: 235px; } }
+
+/*# sourceMappingURL=pfgc.css.map */
